@@ -45,8 +45,9 @@ public class JDckActivity extends AppCompatActivity {
         String scookie = key+user;
         //现实到前端
         TextView cookiestext = findViewById(R.id.textView12);
+        TextView usertext = findViewById(R.id.textView10)
         cookiestext.setText(scookie);
-
+        usertext.setText(user);
         //复制cookies按钮
         Button button = (Button) findViewById(R.id.button4);
         button.setOnClickListener(new View.OnClickListener() {
