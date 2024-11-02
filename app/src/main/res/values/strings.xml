@@ -43,5 +43,5 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="ruletext">使用本应用即代表您已同意并接受本免责声明的全部内容。\n本应用仅供个人使用，使用者需自行承担使用风险。对于使用本应用可能导致的任何损失或损害，本应用开发者概不负责。用户在使用本应用时需遵守法律法规，如因违反相关法律法规而产生的法律责任，本应用开发者不承担任何责任。</string>
-    <string name="version">V1.02</string>
+    <string name="version">V1.03</string>
 </resources>

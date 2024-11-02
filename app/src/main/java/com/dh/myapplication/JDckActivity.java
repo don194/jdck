@@ -42,14 +42,10 @@ public class JDckActivity extends AppCompatActivity {
         Pattern r2 = Pattern.compile(pattern2);
         Matcher u2 = r2.matcher(cookies);
         if(u2.find())  key = u2.group(0);
-        String scookie = user + "\n" + key;
+        String scookie = key+user;
         //现实到前端
-        TextView usertext = findViewById(R.id.textView10);
-        usertext.setText(username);
         TextView cookiestext = findViewById(R.id.textView12);
         cookiestext.setText(scookie);
-        TextView ruletext = findViewById(R.id.textView13);
-        ruletext.setMovementMethod(ScrollingMovementMethod.getInstance());
 
         //复制cookies按钮
         Button button = (Button) findViewById(R.id.button4);
